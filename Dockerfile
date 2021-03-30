@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:3.1.407-buster
+FROM mcr.microsoft.com/dotnet/sdk:5.0-focal
 
 LABEL "com.github.actions.name"="sonarscan-dotnet"
 LABEL "com.github.actions.description"="Sonarscanner for .NET 5 with pull request decoration support."
